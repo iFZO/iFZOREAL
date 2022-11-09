@@ -1,0 +1,54 @@
+
+#navbar{
+    list-style: none;
+    flex: 100px;
+
+    
+
+}
+
+#navbar li{
+    float: left;
+    margin: 5px 20px;
+}
+
+
+    
+
+a:hover{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 16px;
+}
+
+/* block */
+
+.navbar2 li a{
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.navbar2 li{
+    list-style: none;
+    display: inline;
+    margin-left: 110px;
+    margin-right: 100px;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+}
+
+/* pseudo selector */
+
+.navbar2 li:last-child{
+    border: none;
+    
+/*  tuhain songoj baigaa elementiinhe dugaariig
+ () - haaltan dotor bicij ugnu */
+}
+
+
+

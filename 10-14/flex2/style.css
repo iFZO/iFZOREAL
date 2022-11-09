@@ -1,0 +1,31 @@
+.box{
+    border: 1px solid #444;
+    padding: 20px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    background-color: violet;
+
+    /* justify-content: center; */
+    /*1. justify content flex start; default buyu delgetsnii left hsesegt element zeregtsuulne
+    2. justify-content: flex-end; --delgetsiin rigth buyu tugsgul zeregtsuulne 
+    3. justify-content: center; --golluulna
+    */
+
+    justify-content: space-between ;
+    align-items: center;
+    height: 500px;
+    /* align-items: center -- elementiig goluulna */
+    /* align-items: flex-end -- dooshluulna */
+    /* 
+    justify-content:space-evenly; -- delgetsend buh talaasaa tentsuu huvaana */
+    /* justify-content: space-around -- elementmaani tal talruuga zai avna */
+    /* justify-content: space-between -- delgetsiin hooson zaig duurgej zeregtsuulne */
+
+}
+
+.box-2{
+    align-self: flex-start;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- External link-->
+   <div><a href="https://www.youtube.com/">Youtube</a></div> 
+   <div><a href="https://www.youtube.com/" target="_blank">Youtube</a></div> 
+   <!-- Internal link-->
+   <div><a href="/index.html">Internal link</a></div>
+   
+   <!-- Local Image -->
+   <div><img src="/img/download.jpg" alt=""></div>
+   <div></div>
+
+
+   <!-- link-->
+   <ul>
+    <li>Link 1</li>
+    <li>Link 2</li>
+    <li>Link 3</li>
+    <li>Link 4</li>
+    <li><a href="https://www.youtube.com/">Youtube</a></li>
+   </ul>
+    <!-- ol tag bas baigaa -->
+
+    <table>
+        <thead> <!-- tolgoi tag -->
+            <tr> <!-- mur nemeh tag-->
+                <th>Ovog</th> <!-- bagana nemeh tag garchig  -->
+                <th>Ner</th>
+                <th>Nas</th>
+            </tr>
+        </thead>
+        <tbody> <!-- ugugdul undsen content-->
+            <tr>
+                <td>Oogii</td> <!-- contentiih-->
+                <td>Hosoo</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Sergelenbaatar</td>
+                <td>Hench</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Aagii</td>
+                <td>Hvvgii</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Form -->
+    <!-- action Tuhain formoor irsen ugugduliig shiljuulj ugdug-->
+    <form action="">
+         <div class="style1">
+            <label for="name">Ner</label><br> <!-- line breaker-->
+            <input type="text" placeholder="Neree bichne uu" id="name">
+         </div>
+         <div class="style2">
+            <label for="email">Email</label><br>
+            <input type="email"placeholder="Emailee bichnuu" name="email" id="email">
+         </div>
+         <div class="style3">
+            <label for="message">Comment</label><br>
+            <textarea name="message"placeholder="Comment" id="" cols="30" rows="10"></textarea>
+         </div>
+         <div class="huis">
+            <label for="sex">Huis</label><br>
+            <select name="sex" id="sex">
+                <option value="male">Eregtei</option>
+                <option value="female" selected>Emegtei</option>
+            </select>
+         </div>
+         <div>
+            <label for="age">Nas</label>
+            <input type="number" name="age" id="age">
+         </div>
+         <div>
+            <label for="birthdate">Tursun udur</label>
+            <input type="date" name="birthdate" id="birthdate">
+         </div>
+         <div>
+            <label for="sex">Nas huis</label>
+            <input type="radio" name="sex" id="sex" value="man">
+            <input type="radio" name="sex" id="sex" value="woman" checked>
+         </div>
+
+         <div>
+            <label for="sex">Nas huis</label>
+            <input type="checkbox" name="sex" id="sex" value="man">
+            <input type="checkbox" name="sex" id="sex" value="woman" checked>
+         </div>
+
+         <div>
+            <input type="submit" value="REGISTER">
+            <button type="submit"> Click here!!!</button>
+         </div>
+         <div class="box">
+            <h1>HELLO</h1>
+
+         </div>
+    </form>
+</body>
+</html>

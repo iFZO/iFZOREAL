@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        body{
+            background-image: url(./boy.jpg);
+        }
+        .box{
+            border:1px solid #444;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+        }
+
+        /* pseudo */
+       .box:nth-child(9){
+        color: violet;
+        background-color: black;
+       }
+
+       .box:nth-child(8){
+        color: violet;
+        background-color: black;
+       }
+       .box:nth-child(7){
+        color: violet;
+        background-color: black;
+       }
+       .box{
+        border: 1px solid #444;
+        padding: 20px;
+        margin: 10px;
+        flex: 1;
+
+       }
+
+        .main-box{
+            display: flex;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Flexbox ni ashiglahad mash hylbar -->
+    <!-- Flex bol display properttgiin utga -->
+    <!-- zeregtsuuleltiig mash hylbar hiine -->
+    <!-- baigaa diviin bairiig solij chadna -->
+    <!-- display:flex; -->
+    <!-- justify-content: main axis buyu hevtee tenelgiin zeregtsuulelt hiine -->
+    <!-- align-item: bosoo tenhleg cross axis : -->
+
+    <div class="main-box">
+        <div class="box">box1</div>
+        <div class="box">box2</div>
+        <div class="box">box3</div>
+        <div class="box">box4</div>
+        <div class="box">box5</div> 
+        <div class="box">box6</div>
+        <div class="box">box7</div>
+        <div class="box">box8</div>
+        <div class="box">box9</div>
+    </div>
+</body>
+</html>
